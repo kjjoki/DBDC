@@ -9,12 +9,16 @@ The software is free for academic teaching and research purposes but I ask you t
 
 # Codes include:                                                                     
          
-   tdbdc.f95          - Main program for DBDC (this file)                             
-   constants.f95      - Double precision (also some parameters)                       
-   bundle1.f95        - Bundle of DC component f_1                                            
+   tdbdc.f95          - Main program for DBDC (this file) 
+   
+   constants.f95      - Double precision (also some parameters) 
+   
+   bundle1.f95        - Bundle of DC component f_1
+   
    bundle2.f95        - Bundle of DC component f_2                                    
         
-   functions.f95      - User-specified DC components f_1 and f_2 together with subgradients of DC components. Contains also user-specified initial values for parameters                                 
+   functions.f95      - User-specified DC components f_1 and f_2 together with subgradients of DC components. Contains also user-specified initial values for parameters   
+   
    dbdc_non.f95       - DBDC method                                                   
                                                                                              
    plqdf1.f           - Quadratic solver by Ladislav Luksan                           
