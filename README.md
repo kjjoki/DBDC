@@ -9,7 +9,7 @@ The software is free for academic teaching and research purposes but I ask you t
 
 # Codes include:                                                                     
          
-   tdbdc.f95          - Main program for DBDC (this file) 
+   tdbdc.f95          - Main program for DBDC 
    
    constants.f95      - Double precision (also some parameters) 
    
