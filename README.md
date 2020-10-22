@@ -1,13 +1,13 @@
 # DBDC
 The double bundle method for nonsmooth DC optimization
 
-DBDC is a proximal double bundle solver (Fortran 95) for nonsmooth DC programming (difference of two convex functions) by K. Joki. DBDC uses a new procedure guaranteeing Clarke stationarity for solutions by utilizing only DC components of the objective function. This optimality condition is stronger than the criticality condition typically used in DC programming. In addition, if a solution candidate is not Clarke stationary, then a descent direction is generated.
+DBDC is a proximal double bundle solver (Fortran 95) for nonsmooth DC programming (difference of two convex functions) by Kaisa Joki. DBDC uses a new procedure guaranteeing Clarke stationarity for solutions by utilizing only DC components of the objective function. This optimality condition is stronger than the criticality condition typically used in DC programming. In addition, if a solution candidate is not Clarke stationary, then a descent direction is generated.
 
 The software utilizes OpenMP at each round of 'main iteration' to calculate subproblems in parallel. To turn down OpenMP, see instructions in tpbdc.f95. In addition, there is a possibility to use simple stepsize determination after each 'main iteration'. The software uses code PLQDF1 by Prof. Ladislav Luksan to solve quadratic direction finding problem.
 
 The software is free for academic teaching and research purposes but I ask you to refer the reference given below if you use it. To use the software modify tdbdc.f95 and functions.f95 as needed. If you have any questions conserning the software, please contact directly the author Kaisa Joki (email: kjjoki@utu.fi).
 
-# Codes include:                                                                     
+# Code include:                                                                     
          
    tdbdc.f95          - Main program for DBDC 
    
